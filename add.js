@@ -10,7 +10,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://alaa:Sc1XYqNl0GH2qE3O@cluster0.ll5l0.mongodb.net/myDb?retryWrites=true&w=majority',
 ()=>{
     console.log('mongo succ');
-    app.listen(process.env.port,()=>{
+    app.listen(process.env.Port,()=>{
         console.log('asdasd');
     });  
 });
